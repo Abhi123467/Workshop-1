@@ -1,0 +1,68 @@
+#assignment questions
+#1
+"""d="Hi"
+E=["Python","sql"]
+b={}
+i=0
+while i <len(d):
+    b[d[i]]=E[i]
+    i=i+1
+print(b)"""
+
+
+#2
+"""E=['python','sql']
+b={}
+i=0
+while i <len(E):
+    b[E[i]]=len(E[i])
+    i=i+1
+print(b)
+"""
+
+#3
+D='aabbccc'
+s=""
+i=0
+while i<len(D):
+    if D[i] not in s:
+        s=s+D[i]+str(D.count(D[i]))
+    i=i+1
+print(s)
+
+#4
+"""n=31
+if n<2:
+    print("not prime")
+else:
+    i=2
+    while i<n:
+        if n%i==0:
+            print("not prime")
+            break
+        i=i+1
+    else:
+        print("prime")"""
+
+#5
+"""n=4
+i=1
+fact=1
+while i<=n:
+    fact=fact*i
+    i=i+1
+print(fact)"""
+
+#6
+
+"""n=28 #6,28,496,8128
+sum=0
+i=1
+while i<n:
+    if n%i==0:
+        sum=sum+i
+    i=i+1
+if sum==n:
+    print("perfect number")
+else:
+    print("Not perfect number")"""
